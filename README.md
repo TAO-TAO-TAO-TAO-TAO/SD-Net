@@ -1,5 +1,8 @@
-## SD-Net: A Novel Keypoint Selection and Filtering for 6DoF Pose Estimation in Stacked Scenarios
-This is the code of pytorch version for paper: [**A Novel Keypoint Selection and Filtering for 6DoF Pose Estimation in Stacked Scenarios**]
+## SD-Net: Symmetric-Aware Keypoint Prediction and Domain Adaptation for 6D Pose Estimation In Bin-picking Scenarios
+This is the code of pytorch version for paper: [**Symmetric-Aware Keypoint Prediction and Domain Adaptation for 6D Pose Estimation In Bin-picking Scenarios**]
+
+
+
 
 
 ## Environment
@@ -11,12 +14,34 @@ Our backbone PointNet++ is borrowed from [pointnet2](https://github.com/erikwijm
 
 ## Dataset
 Siléane dataset is available at [here](http://rbregier.github.io/dataset2017).
-
-
+Parametric dataset is available at [here](https://github.com/lvwj19/ParametricNet).
 Fraunhofer IPA Bin-Picking dataset is available at [here](https://owncloud.fraunhofer.de/index.php/s/AacICuOWQVWDDfP?path=%2F).
 
 ## Evaluation metric
 The python code of evaluation metric is available at [here](https://github.com/rbregier/pose_recovery_evaluation).
 
-## Illustration of the SD-Net architecture for 6DoF Pose Estimation in stacked scenarios
-![Alt text](/SD-Net/images/model.png)
+## Overview of SD-Net architecture.
+Illustration of the SD-Net architecture for 6DoF Pose Estimation in stacked scenarios
+![Alt text](/images/model1.png)
+We omit the domain adaptation framework, for brevity and more details can be found in ![Alt text](/images/model2.png).
+
+
+
+## Citation
+If you find our work useful in your research, please consider citing:
+
+@article{din2024SD-Net,
+title={SD-Net: Symmetric-Aware Keypoint Prediction and Domain Adaptation for 6D Pose Estimation In Bin-picking Scenarios},
+author={Ding-Tao Huang, En-Te Lin, Lipeng Chen2, Li-Fu Liu1, Long Zeng},
+journal={arXiv preprint arXiv},
+year={2024}
+}
+
+
+## Contact
+
+If you have any questions, please feel free to contact the authors. 
+
+Ding-Tao Huang: [hdt22@mails.tsinghua.edu.cn](hdt22@mails.tsinghua.edu.cn)
+
+En-Te Lin: [linet22@mails.tsinghua.edu.cn](linet22@mails.tsinghua.edu.cn)
