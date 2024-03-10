@@ -38,6 +38,18 @@ year={2024}
 }
 
 
+## Citation
+If you find our work useful in your research, please consider citing:
+
+    @article{lin2023sam,
+    title={SAM-6D: Segment Anything Model Meets Zero-Shot 6D Object Pose Estimation},
+    author={Lin, Jiehong and Liu, Lihua and Lu, Dekun and Jia, Kui},
+    journal={arXiv preprint arXiv:2311.15707},
+    year={2023}
+    }
+
+
+
 ## Contact
 
 If you have any questions, please feel free to contact the authors. 
