@@ -2,6 +2,11 @@
 This is the code of pytorch version for paper: [**Symmetric-Aware Keypoint Prediction and Domain Adaptation for 6D Pose Estimation In Bin-picking Scenarios**]
 
 
+## Overview of SD-Net architecture.
+Illustration of the SD-Net architecture for 6DoF Pose Estimation in stacked scenarios.
+![Alt text](/images/model1.png)
+We omit the domain adaptation framework, for brevity and more details can be found in :![Alt text](/images/model2.png).
+
 ## Qualitative results
 Evaluation Siléane dataset
 ![Alt text](/images/1.gif)
@@ -9,13 +14,6 @@ Evaluation Siléane dataset
 Evaluation Parametric dataset
 ![Alt text](/images/4.gif)
 ![Alt text](/images/3.gif)
-## Overview of SD-Net architecture.
-
-## Overview of SD-Net architecture.
-Illustration of the SD-Net architecture for 6DoF Pose Estimation in stacked scenarios
-![Alt text](/images/model1.png)
-We omit the domain adaptation framework, for brevity and more details can be found in ![Alt text](/images/model2.png).
-
 
 
 
