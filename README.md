@@ -75,7 +75,7 @@ If you find our work useful in your research, please consider citing:
     @article{din2024SD-Net,
     title={SD-Net: Symmetric-Aware Keypoint Prediction and Domain Adaptation for 6D Pose Estimation In Bin-picking Scenarios},
     author={Ding-Tao Huang, En-Te Lin, Lipeng Chen2, Li-Fu Liu1, Long Zeng},
-    journal={arXiv preprint arXiv},
+    journal={arXiv preprint arXiv:2403.09317},
     year={2024}
     }
 
